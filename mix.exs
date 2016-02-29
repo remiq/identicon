@@ -17,7 +17,7 @@ defmodule Identicon.Mixfile do
   end
 
   def application do
-    [applications: [:logger, :crypto]]
+    [applications: [:logger, :crypto, :egd]]
   end
 
   defp deps do
